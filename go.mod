@@ -1,7 +1,6 @@
-module upward_ssh
+module upward
 
 require (
-	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
 	github.com/pkg/errors v0.8.1
 	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
 )

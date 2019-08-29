@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os/user"
-	"upward_ssh/core"
+	"upward/core"
 )
 
 func main() {
