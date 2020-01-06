@@ -16,7 +16,7 @@
 - 下载编译好的二进制包upssh，放在指目录下，如`~/upssh`或`/usr/local/upssh`
 
 ## 使用说明
-- 配置文件在 config/config.go，对应eclogue/eclogue这个项目的服务
+- 配置文件在 config/config.yaml，对应 github.com/eclogue/eclogue 这个项目的服务
 - 在堡垒机某用户目录下的.bash_profile文件后面，添加如下：/path/upssh.sh，即可
  
 ## 编译
