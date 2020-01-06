@@ -6,7 +6,7 @@
 
   如图 
 
-![image](./resource/demo.jpg)
+![image](https://github.com/eclogue/upward/blob/master/resource/demo.jpg)
  
 ## 下载
 - linux amd64版 编译好的二进制包地址：upward/bin/linux/amd64/upssh
