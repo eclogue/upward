@@ -21,7 +21,7 @@ func CheckUser(username string, host string, pwd string) (bool, error) {
 		Message string
 		Data    data
 	}{}
-	resp, err := http.PostForm(config.Domain+"/fortress/login", url.Values{"username": {username}, "host": {host}, "pwd": {pwd}})
+	resp, err := http.PostForm(config.Conf.Domain+"/fortress/login", url.Values{"username": {username}, "host": {host}, "pwd": {pwd}})
 	if err != nil {
 		return false, err
 	}
@@ -45,7 +45,7 @@ func CheckUser(username string, host string, pwd string) (bool, error) {
 
 func GetUserHosts(username string) (list []Server) {
 	param := map[string]interface{}{"username": username}
-	body, err := HttpPost(config.Domain+"/fortress/hosts", param, nil, 3)
+	body, err := HttpPost(config.Conf.Domain+"/fortress/hosts", param, nil, 3)
 	if err != nil {
 		fmt.Println(err)
 		return

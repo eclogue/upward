@@ -3,10 +3,13 @@ package main
 import (
 	"fmt"
 	"os/user"
+	"upward/config"
 	"upward/core"
 )
 
 func main() {
+	config.Init()
+
 	u,_ := user.Current()
 	username := u.Username
 
