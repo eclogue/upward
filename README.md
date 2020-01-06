@@ -4,6 +4,10 @@
 ## 功能说明
 - 远程连接跳板机
 
+  如图 
+
+![image](./resource/demo.png)
+ 
 ## 下载
 - linux amd64版 编译好的二进制包地址：upward/bin/linux/amd64/upssh
 - mac版 编译好的二进制包地址：upward/bin/mac/upssh
